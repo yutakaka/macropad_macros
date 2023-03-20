@@ -21,7 +21,7 @@ app = {                # REQUIRED dict, must be named 'app'
         (0x004000, 'Enter', [Keycode.ENTER]),
         # 4th row ----------
         (0x202020, '<WSpace', [Keycode.CONTROL, Keycode.LEFT_ARROW]),
-        (0xee6600, '^', [Keycode.DOWN_ARROW]),
+        (0xee6600, '^', [Keycode.CONTROL, Keycode.UP_ARROW]),
         (0x202020, 'WSpace>', [Keycode.CONTROL, Keycode.RIGHT_ARROW]),
         # Encoder button ---
         (0x000000, '', [Keycode.ESCAPE])
