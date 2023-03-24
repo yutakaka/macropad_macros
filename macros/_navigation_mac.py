@@ -17,7 +17,7 @@ app = {                # REQUIRED dict, must be named 'app'
         (0x202000, 'PgDn', [Keycode.PAGE_DOWN]),
         # 3rd row ----------
         (0x006699, 'ESC', [Keycode.ESCAPE]),
-        (0x202020, '', [Keycode.UP_ARROW]),
+        (0x006699, 'Speak', [Keycode.SHIFT, Keycode.CONTROL, Keycode.S]),
         (0x004000, 'Enter', [Keycode.ENTER]),
         # 4th row ----------
         (0x202020, '<WSpace', [Keycode.CONTROL, Keycode.LEFT_ARROW]),
