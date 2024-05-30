@@ -13,10 +13,10 @@ app = {                # REQUIRED dict, must be named 'app'
         # 2nd row ----------
         (0x202000, 'Body', [Keycode.LEFT_SHIFT, Keycode.COMMAND, Keycode.B]),
         (0x202000, 'Mono', [Keycode.LEFT_SHIFT, Keycode.COMMAND, Keycode.M]),
-        (0x202000, '* ...', [Keycode.LEFT_SHIFT, Keycode.COMMAND, Keycode.7]),
+        (0x202000, '* ...', [Keycode.LEFT_SHIFT, Keycode.COMMAND, '7']),
         # 3rd row ----------
-        (0x202000, '- ...', [Keycode.LEFT_SHIFT, Keycode.COMMAND, Keycode.8]),
-        (0x202000, '1.2.3. ', [Keycode.LEFT_SHIFT, Keycode.COMMAND, Keycode.9]),
+        (0x202000, '- ...', [Keycode.LEFT_SHIFT, Keycode.COMMAND, '8']),
+        (0x202000, '1.2.3. ', [Keycode.LEFT_SHIFT, Keycode.COMMAND, '9']),
         (0x202000, 'BQuote', [Keycode.COMMAND, Keycode.QUOTE]),
         # 4th row ----------
         (0x004000, 'Link', [Keycode.COMMAND, Keycode.K]),
