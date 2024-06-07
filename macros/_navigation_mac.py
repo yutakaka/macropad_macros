@@ -8,7 +8,7 @@ app = {                # REQUIRED dict, must be named 'app'
     'macros' : [       # List of button macros...
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
-        (0x000000, 'Empty', []),
+        (0x6600CC, 'Dock', [Keycode.COMMAND, Keycode.LEFT_ALT, Keycode.D]),
         (0x000020, 'HOME', [Keycode.HOME]),
         (0x202000, 'PgUp', [Keycode.PAGE_UP]),
         # 2nd row ----------
