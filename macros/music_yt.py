@@ -8,22 +8,22 @@ app = {                    # REQUIRED dict, must be named 'app'
     'macros' : [           # List of button macros...
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
-        (0x006699, 'Mute', [[ConsumerControlCode.MUTE]]),
-        (0x004000, 'Vol-', [[ConsumerControlCode.VOLUME_DECREMENT]]),
-        (0x004000, 'Vol+', [[ConsumerControlCode.VOLUME_INCREMENT]]),      #
+        (0x006699, 'Mute', [Keycode.M]),
+        (0x004000, 'Vol-', [Keycode.MINUS]),
+        (0x004000, 'Vol+', [Keycode.EQUALS]),      #
         # 2nd row ----------
-        (0x000000, '', [Keycode.COMMA]),
-        (0x000000, '', [Keycode.C]),
-        (0x000000, '', [Keycode.PERIOD]),
+        (0x000000, 'Prev', [Keycode.K]), # Previous song
+        (0x000000, 'Like', [Keycode.Q]), # Like song
+        (0x000000, 'Next>', [Keycode.J]), # Next song
         # 3rd row ----------
-        (0x000040, 'Prev', [Keycode.K]), # Slower speed
-        (0x101010, 'LIKE', [Keycode.LEFT_SHIFT, Keycode.EQUALS]),
-        (0x000040, 'Next', [Keycode.J]), # Faster speed
+        (0x000040, '<1s', [Keycode.LEFT_SHIFT, Keycode.h]), # Rewind 1 sec.
+        (0x101010, 'Q', [Keycode.Q]), # Toggle queue/expanded player
+        (0x000040, '1s>', [Keycode.LEFT_SHIFT, Keycode.l]), # Forward 1 sec.
         # 4th row ----------
-        (0x800000, '<<', [Keycode.LEFT_SHIFT, Keycode.LEFT_ARROW]),   #
+        (0x800000, '<10s', [Keycode.LEFT_SHIFT, Keycode.LEFT_ARROW]),   #
         (0x800000, 'Play/Pause', [Keycode.SPACEBAR]),   # Toggle Play/Pause
-        (0x800000, '>>', [Keycode.LEFT_SHIFT, Keycode.RIGHT_ARROW]), #
+        (0x800000, '10s>', [Keycode.LEFT_SHIFT, Keycode.RIGHT_ARROW]), #
         # Encoder button ---
-        (0x000000, '', [Keycode.Q]) # Close window/tab
+        (0x000000, '', [Keycode.FORWARD_SLASH]) # Close window/tab
     ]
 }
