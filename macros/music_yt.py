@@ -14,11 +14,11 @@ app = {                    # REQUIRED dict, must be named 'app'
         # 2nd row ----------
         (0x000000, 'Prev', [Keycode.K]), # Previous song
         (0x000000, 'Like', [Keycode.Q]), # Like song
-        (0x000000, 'Next>', [Keycode.J]), # Next song
+        (0x000000, 'Next', [Keycode.J]), # Next song
         # 3rd row ----------
-        (0x000040, '<1s', [Keycode.LEFT_SHIFT, Keycode.h]), # Rewind 1 sec.
+        (0x000040, '<1s', [Keycode.LEFT_SHIFT, Keycode.H]), # Rewind 1 sec.
         (0x101010, 'Q', [Keycode.Q]), # Toggle queue/expanded player
-        (0x000040, '1s>', [Keycode.LEFT_SHIFT, Keycode.l]), # Forward 1 sec.
+        (0x000040, '1s>', [Keycode.LEFT_SHIFT, Keycode.L]), # Forward 1 sec.
         # 4th row ----------
         (0x800000, '<10s', [Keycode.LEFT_SHIFT, Keycode.LEFT_ARROW]),   #
         (0x800000, 'Play/Pause', [Keycode.SPACEBAR]),   # Toggle Play/Pause
